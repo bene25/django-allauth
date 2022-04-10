@@ -1,5 +1,6 @@
 import html
 import json
+import random
 import warnings
 from datetime import timedelta
 
@@ -535,7 +536,8 @@ class DefaultAccountAdapter(object):
 
     def send_confirmation_mail(self, request, emailconfirmation, signup):
         current_site = get_current_site(request)
-        activate_url = self.get_email_confirmation_url(request, emailconfirmation)
+        # activate_url = self.get_email_confirmation_url(request, emailconfirmation)
+        activate_url = emailconfirmation.key
         ctx = {
             "user": emailconfirmation.email_address.user,
             "activate_url": activate_url,
@@ -614,7 +616,8 @@ class DefaultAccountAdapter(object):
         return ip
 
     def generate_emailconfirmation_key(self, email):
-        key = get_random_string(64).lower()
+        # key = get_random_string(64).lower()
+        key = random.randrange(100000, 999999)
         return key
 
 
