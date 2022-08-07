@@ -322,6 +322,13 @@ App registration (get your key and secret here)
 CILogon OIDC/OAuth2 Documentation
     https://www.cilogon.org/oidc
 
+Clever
+----
+Single sign-on for education
+
+Clever OAUth2 Documentation
+    https://dev.clever.com/docs/classroom-with-oauth
+
 
 Dataporten
 ----------
@@ -1024,6 +1031,18 @@ Development callback URL
     http://localhost:8000/accounts/instagram/login/callback/
 
 
+Hubspot
+--------
+
+App registration (get your key and secret here)
+    https://developers.hubspot.com/docs/api/creating-an-app
+
+Authentication documentation
+    https://developers.hubspot.com/docs/api/working-with-oauth
+
+Development callback URL
+    https://localhost:8000/accounts/hubspot/login/callback/
+
 Instagram
 ---------
 
@@ -1617,6 +1636,12 @@ SCOPE:
     For a full list of scope options, see
     https://developers.pinterest.com/docs/api/overview/#scopes
 
+Pocket
+-------------
+
+App registration (get your consumer key here)
+    https://getpocket.com/developer/apps/
+
 QuickBooks
 ----------
 
@@ -1794,6 +1819,19 @@ Development callback URL
 
 API documentation
     https://api.slack.com/docs/sign-in-with-slack
+    
+
+Snapchat
+-----
+
+App registration (get your key and secret here)
+    https://kit.snapchat.com/manage/
+
+Development callback URL
+    http://example.com/accounts/snap/login/callback/
+
+API documentation
+    https://docs.snap.com/docs/snap-kit/login-kit/overview
 
 
 SoundCloud
